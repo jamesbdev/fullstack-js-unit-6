@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": "1",
+             "project_name": "project 1",
+             "description": "A description",
+             "live_link": "a url to live site",
+             "github_link": "a url to github repo", 
+             "image_urls": ["file_path", "file_path"]
+
+        },
+        {
+            "id": "2",
+             "project_name": "project 1",
+             "description": "A description",
+             "live_link": "a url to live site",
+             "github_link": "a url to github repo", 
+             "image_urls": ["file_path", "file_path"]
+
+        },
+        {
+            "id": "3",
+             "project_name": "project 1",
+             "description": "A description",
+             "live_link": "a url to live site",
+             "github_link": "a url to github repo", 
+             "image_urls": ["file_path", "file_path"]
+
+        },
+        {
+            "id": "4",
+             "project_name": "project 1",
+             "description": "A description",
+             "live_link": "a url to live site",
+             "github_link": "a url to github repo", 
+             "image_urls": ["file_path", "file_path"]
+
+        },
+        {
+            "id": "5",
+             "project_name": "project 1",
+             "description": "A description",
+             "live_link": "a url to live site",
+             "github_link": "a url to github repo", 
+             "image_urls": ["file_path", "file_path"]
+
+        }
+    ]
+}
