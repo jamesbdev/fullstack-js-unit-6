@@ -2,47 +2,52 @@
     "projects": [
         {
             "id": "1",
-             "project_name": "project 1",
-             "description": "A description",
-             "live_link": "a url to live site",
-             "github_link": "a url to github repo", 
-             "image_urls": ["file_path", "file_path"]
+             "project_name": "Random quote generator",
+             "description": "a simple front end application that generates a random quote.",
+             "technologies": ["HTML", "CSS", "JavaScript"],
+             "live_link": "https://jamesbdev.github.io/fsjs-tech-degree-unit-1/",
+             "github_link": "https://github.com/jamesbdev/fsjs-tech-degree-unit-1", 
+             "image_urls": ["./images/screenshots/unit-1/project-1-screenshot.png", "./images/screenshots/unit-1/project-1-screenshot-wide.png"]
 
         },
         {
             "id": "2",
-             "project_name": "project 1",
-             "description": "A description",
-             "live_link": "a url to live site",
-             "github_link": "a url to github repo", 
-             "image_urls": ["file_path", "file_path"]
+             "project_name": "Data pagination and filtering",
+             "description": "This project is made of a page displaying student cards using pagination buttons. It also contains a search input to search for students.",
+             "technologies": ["HTML", "CSS", "JavaScript"],
+             "live_link": "https://jamesbdev.github.io/full-stack-js-unit-2/",
+             "github_link": "https://github.com/jamesbdev/full-stack-js-unit-2", 
+             "image_urls": ["./images/screenshots/unit-2/project-2-screenshot-square.png", "./images/screenshots/unit-2/project-2-screenshot-wide.png"]
 
         },
         {
             "id": "3",
-             "project_name": "project 1",
-             "description": "A description",
-             "live_link": "a url to live site",
-             "github_link": "a url to github repo", 
-             "image_urls": ["file_path", "file_path"]
+             "project_name": "Interactive form",
+             "description": "Interactive web form with validation. It contains example of interactivity such as hiding/showing form elements. It validates several inputs and also calculates a price total.",
+             "technologies": ["HTML", "CSS", "JavaScript"],
+             "live_link": "https://jamesbdev.github.io/full-stack-js-unit-3/",
+             "github_link": "https://github.com/jamesbdev/full-stack-js-unit-3", 
+             "image_urls": ["./images/screenshots/unit-3/unit-3-project-square.png", "./images/screenshots/unit-3/unit-3-project-wide.png", "./images/screenshots/unit-3/unit-3-project-wide-2.png" ]
 
         },
         {
             "id": "4",
-             "project_name": "project 1",
-             "description": "A description",
-             "live_link": "a url to live site",
-             "github_link": "a url to github repo", 
-             "image_urls": ["file_path", "file_path"]
+             "project_name": "Game show app",
+             "description": "A game coded with html, css and JavaScript. It takes the user input and shows letters if the letters match with a random phrase. The game styling is influenced by the Squid Game Netflix series.",
+             "technologies": ["HTML", "CSS", "JavaScript"],
+             "live_link": "https://jamesbdev.github.io/full-stack-js-unit-4/",
+             "github_link": "https://github.com/jamesbdev/fullstack-js-unit-4", 
+             "image_urls": ["./images/screenshots/unit-4/unit-4-square-image.png", "./images/screenshots/unit-4/unit-4-project-wide.png", "./images/screenshots/unit-4/unit-4-project-wide-2.png" ]
 
         },
         {
             "id": "5",
-             "project_name": "project 1",
-             "description": "A description",
-             "live_link": "a url to live site",
-             "github_link": "a url to github repo", 
-             "image_urls": ["file_path", "file_path"]
+             "project_name": "Employee directory",
+             "description": "The app displays a list of employee cards. The data is shown using fetch API. There is also a search feature to search employees.",
+             "technologies": ["HTML", "CSS", "JavaScript", "fetch API"],
+             "live_link": "https://jamesbdev.github.io/full-stack-js-unit-5/",
+             "github_link": "https://github.com/jamesbdev/fullstack-js-unit-5", 
+             "image_urls": ["./images/screenshots/unit-4/unit-5-project-square.png", "./images/screenshots/unit-4/unit-5-project-wide.png"]
 
         }
     ]
