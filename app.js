@@ -17,7 +17,7 @@ app.get("/about", (req, res) => {
 
 app.get('/project/:id', (req, res) => {
     const projectId = req.params.id;
-    res.render('project', projectId)
+    res.render('project', { projectId })
 })
 
 app.listen(port, () => {
