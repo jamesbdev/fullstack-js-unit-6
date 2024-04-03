@@ -22,7 +22,7 @@ app.get('/project/:id', (req, res) => {
     //store project id
     const projectId = req.params.id;
     //render project view and pass the individual project data
-    res.render('project', { project: data.projects[projectId] })
+    res.render('project', { project: data.projects[projectId - 1] })
 })
 
 //handle 404 request
