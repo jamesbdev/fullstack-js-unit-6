@@ -7,7 +7,7 @@
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/fsjs-tech-degree-unit-1/",
              "github_link": "https://github.com/jamesbdev/fsjs-tech-degree-unit-1", 
-             "image_urls": ["/images/screenshots/unit-1/project-1-screenshot.png", "./images/screenshots/unit-1/project-1-screenshot-wide.png"]
+             "image_urls": ["images/screenshots/unit-1/project-1-screenshot.png", "images/screenshots/unit-1/project-1-screenshot-wide.png"]
 
         },
         {
@@ -17,7 +17,7 @@
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-2/",
              "github_link": "https://github.com/jamesbdev/full-stack-js-unit-2", 
-             "image_urls": ["./images/screenshots/unit-2/project-2-screenshot-square.png", "./images/screenshots/unit-2/project-2-screenshot-wide.png"]
+             "image_urls": ["images/screenshots/unit-2/project-2-screenshot-square.png", "images/screenshots/unit-2/project-2-screenshot-wide.png"]
 
         },
         {
