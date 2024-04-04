@@ -35,7 +35,7 @@ app.use((req, res, next) => {
     //render 404 template
     //pass in error info
     res.status(404);
-    res.render('page-not-found');
+    res.render('page-not-found', { error: err });
 });
 
 //global error handler 
@@ -44,7 +44,7 @@ app.use((err, req, res, next) => {
     res.status(err.status || 500);
     //render 500 template
     //pass error info
-    res.render("error");
+    res.render("error", {error: err});
 })
 
 

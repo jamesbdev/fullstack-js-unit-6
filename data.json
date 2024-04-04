@@ -12,7 +12,7 @@
         {
             "id": "2",
              "project_name": "Data pagination and filtering",
-             "description": "In this project, I added the ability to paginate data when displaying a list of student cards. I also added a search functionality filter students.",
+             "description": "In this project, I added the ability to paginate data when displaying a list of student cards. I also added a search functionality to filter students.",
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-2/",
              "github_link": "https://github.com/jamesbdev/full-stack-js-unit-2", 
