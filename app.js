@@ -34,7 +34,8 @@ app.use((req, res, next) => {
     console.log(err.status, err.message);
     //render 404 template
     //pass in error info
-    res.status(404).send('<h1>404 - This page does not exist. Please check the URL</h1>');
+    res.status(404);
+    res.render('page-not-found');
 });
 
 //global error handler 

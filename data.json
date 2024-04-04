@@ -7,7 +7,7 @@
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/fsjs-tech-degree-unit-1/",
              "github_link": "https://github.com/jamesbdev/fsjs-tech-degree-unit-1", 
-             "image_urls": ["static/images/screenshots/unit-1/project-1-screenshot.png", "/static/images/screenshots/unit-1/project-1-screenshot-wide.png"]
+             "image_urls": ["/static/images/screenshots/unit-1/project-1-screenshot.png", "/static/images/screenshots/unit-1/project-1-screenshot-wide.png"]
         },
         {
             "id": "2",
@@ -16,7 +16,7 @@
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-2/",
              "github_link": "https://github.com/jamesbdev/full-stack-js-unit-2", 
-             "image_urls": ["static/images/screenshots/unit-2/project-2-screenshot-square.png", "/static/images/screenshots/unit-2/project-2-screenshot-wide.png"]
+             "image_urls": ["/static/images/screenshots/unit-2/project-2-screenshot-square.png", "/static/images/screenshots/unit-2/project-2-screenshot-wide.png"]
 
         },
         {
@@ -35,7 +35,7 @@
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-4/",
              "github_link": "https://github.com/jamesbdev/fullstack-js-unit-4", 
-             "image_urls": ["/static/images/screenshots/unit-4/unit-4-square-image.png", "/static/images/screenshots/unit-4/unit-4-project-wide.png", "/static/images/screenshots/unit-4/unit-4-project-wide-2.png" ]
+             "image_urls": ["/static/images/screenshots/unit-4/unit-4-square-image.png", "/static/images/screenshots/unit-4/unit-4-project-wide.png", "/static/images/screenshots/unit-4/unit-4-project-wide-2.png", "/static/images/screenshots/unit-4/project-4-wide-3.png" ]
 
         },
         {
