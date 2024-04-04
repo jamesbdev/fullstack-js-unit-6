@@ -3,7 +3,7 @@
         {
             "id": "1",
              "project_name": "Random quote generator",
-             "description": "a simple front end application that generates a random quote.",
+             "description": "In this Tech degree project, I added the ability to generate a random quote from an array of quotes. I also added a feature to generate a new quote automatically after a few seconds. Finally I added custom styling to the page.",
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/fsjs-tech-degree-unit-1/",
              "github_link": "https://github.com/jamesbdev/fsjs-tech-degree-unit-1", 
@@ -12,21 +12,21 @@
         {
             "id": "2",
              "project_name": "Data pagination and filtering",
-             "description": "This project is made of a page displaying student cards using pagination buttons. It also contains a search input to search for students.",
+             "description": "In this project, I added the ability to paginate data when displaying a list of student cards. I also added a search functionality filter students.",
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-2/",
              "github_link": "https://github.com/jamesbdev/full-stack-js-unit-2", 
-             "image_urls": ["static/images/screenshots/unit-2/project-2-screenshot-square.png", "/static/images/screenshots/unit-1/project-1-screenshot-wide.png"]
+             "image_urls": ["static/images/screenshots/unit-2/project-2-screenshot-square.png", "/static/images/screenshots/unit-2/project-2-screenshot-wide.png"]
 
         },
         {
             "id": "3",
              "project_name": "Interactive form",
-             "description": "Interactive web form with validation. It contains example of interactivity such as hiding/showing form elements. It validates several inputs and also calculates a price total.",
+             "description": "In this project, I added some interactive features to a sign up form for a fictional Tech conference. For example, I added form input validation using JavaScript regular expressions. I also added dynamic selects that hide or show parts of the form and also added a way to calculate a price total in one of the form fields.",
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-3/",
              "github_link": "https://github.com/jamesbdev/full-stack-js-unit-3", 
-             "image_urls": ["/static/images/screenshots/unit-3/unit-3-project-square.png", "static/images/screenshots/unit-3/unit-3-project-wide.png", "static/images/screenshots/unit-3/unit-3-project-wide-2.png" ]
+             "image_urls": ["/static/images/screenshots/unit-3/unit-3-project-square.png", "/static/images/screenshots/unit-3/unit-3-project-wide.png", "/static/images/screenshots/unit-3/unit-3-project-wide-2.png" ]
         },
         {
             "id": "4",
@@ -41,11 +41,11 @@
         {
             "id": "5",
              "project_name": "Employee directory",
-             "description": "The app displays a list of employee cards. The data is shown using fetch API. There is also a search feature to search employees.",
-             "technologies": ["HTML", "CSS", "JavaScript", "fetch API"],
+             "description": "In this project, I used the Fetch API to display a list of employees. I then added a pop-up window to preview an employee information. Finally, I added a search feature to filter employees in the directory.",
+             "technologies": ["HTML", "CSS", "JavaScript", "Fetch API"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-5/",
              "github_link": "https://github.com/jamesbdev/fullstack-js-unit-5", 
-             "image_urls": ["static/images/screenshots/unit-5/unit-5-project-square.png", "static/images/screenshots/unit-5/unit-5-project-wide.png"]
+             "image_urls": ["/static/images/screenshots/unit-5/unit-5-project-square.png", "/static/images/screenshots/unit-5/unit-5-project-wide.png"]
 
         }
     ]
