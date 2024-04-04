@@ -6,15 +6,15 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/css/normalize.css')
-    link(rel='stylesheet', href='/css/styles.css')
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
 
   body
     #my-info.sidebar
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='/images/profile_image/profile-image-2.jpg', alt='james profile image')
+          img.thumbnail(src='/static/images/profile_image/profile-image-2.jpg', alt='james profile image')
         .dev-intro-box
           h5 James Bremner
           p I'm a web developer with experience in ecommerce.
@@ -29,4 +29,4 @@ html(lang="en" dir="ltr")
 
       block content
 
-  script(src='/js/script.js')
+  script(src='static/js/script.js')

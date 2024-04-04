@@ -5,7 +5,8 @@ const port = 3000;
 
 app.set('view engine', 'pug');
 //set static files directory to public
-app.use(express.static('public'));
+
+app.use("/static", express.static('public'));
 
 app.get("/", (req, res) => {
     //render index template
