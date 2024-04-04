@@ -10,9 +10,8 @@ block content
 
     .projects-box.box.grid
       each project in data
-     
         .cell
-          a(href=project.live_link target="_blank")
+          a(href="/project/" + project.id)
             img.thumbnail(src=project.image_urls[0], alt=project.project_name + " thumbnail")
             h5 #{project.project_name}
 

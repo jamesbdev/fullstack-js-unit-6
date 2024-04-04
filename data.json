@@ -26,17 +26,16 @@
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-3/",
              "github_link": "https://github.com/jamesbdev/full-stack-js-unit-3", 
-             "image_urls": ["static/images/screenshots/unit-3/unit-3-project-square.png", "static/images/screenshots/unit-3/unit-3-project-wide.png", "static/images/screenshots/unit-1/project-1-screenshot-wide.png" ]
-
+             "image_urls": ["/static/images/screenshots/unit-3/unit-3-project-square.png", "static/images/screenshots/unit-3/unit-3-project-wide.png", "static/images/screenshots/unit-3/unit-3-project-wide-2.png" ]
         },
         {
             "id": "4",
              "project_name": "Game show app",
-             "description": "A game coded with html, css and JavaScript. It takes the user input and shows letters if the letters match with a random phrase. The game styling is influenced by the Squid Game Netflix series.",
+             "description": "In this project I built a browser-based game that takes the user input and shows letters if the letters match with a random phrase. I tried to style the game to be reminiscent of the Squid Game Netflix series.",
              "technologies": ["HTML", "CSS", "JavaScript"],
              "live_link": "https://jamesbdev.github.io/full-stack-js-unit-4/",
              "github_link": "https://github.com/jamesbdev/fullstack-js-unit-4", 
-             "image_urls": ["static/images/screenshots/unit-4/unit-4-square-image.png", "static/images/screenshots/unit-4/unit-4-project-wide.png", "./images/screenshots/unit-4/unit-4-project-wide-2.png" ]
+             "image_urls": ["/static/images/screenshots/unit-4/unit-4-square-image.png", "/static/images/screenshots/unit-4/unit-4-project-wide.png", "/static/images/screenshots/unit-4/unit-4-project-wide-2.png" ]
 
         },
         {
