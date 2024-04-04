@@ -32,8 +32,6 @@ app.use((req, res, next) => {
     err.status = 404;
     err.message = "Sorry this page doesn't exist.";
     console.log(err.status, err.message);
-    //render 404 template
-    //pass in error info
     res.status(404);
     res.render('page-not-found', { error: err });
 });
@@ -41,9 +39,9 @@ app.use((req, res, next) => {
 //global error handler 
 app.use((err, req, res, next) => {
     res.locals.error = err;
-    res.status(err.status || 500);
-    //render 500 template
-    //pass error info
+    err.status = 500;
+    err.message = "Server side error";
+    res.status(err.status);
     res.render("error", {error: err});
 })
 
