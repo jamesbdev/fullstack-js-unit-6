@@ -371,7 +371,7 @@ body {
   --color-highlight: #98D9A6;
 }
 
-.portfolio-intro h1, h1 {
+.portfolio-intro h1, h1, .projects-box h5 {
   color: var(--color-primary);
 }
 
@@ -400,4 +400,10 @@ p {
 
  li {
   color: var(--color-highlight);
+}
+
+@media screen and (min-width: 990px) {
+  .errorMessage {
+    padding: 2rem;
+  }
 }
