@@ -31,9 +31,10 @@ app.use((req, res, next) => {
     const err = new Error();
     err.status = 404;
     err.message = "Sorry this page doesn't exist.";
-    console.log(err.status, err.message);
     res.status(404);
+    console.log(err.status, err.message);
     res.render('page-not-found', { error: err });
+  
 });
 
 //global error handler 
