@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #62086b;
+  background: #000;
 }
 
 .sidebar-info-box {
@@ -361,4 +361,43 @@ nav a span {
   .inner-wrapper {
     max-width: 1200px;
   }
+}
+
+/* custom changes  */
+
+body {
+  --color-primary: #1EDBC6;
+  --color-secondary: #50D99A;
+  --color-highlight: #98D9A6;
+}
+
+.portfolio-intro h1, h1 {
+  color: var(--color-primary);
+}
+
+h6 {
+  color: var(--color-secondary);
+  text-shadow: 3px 3px 11px var(--color-secondary);
+}
+
+p {
+  color: var(--color-secondary);
+  font-family: "Source Serif 4", serif;
+}
+
+.sidebar {
+  background: var(--color-highlight);
+}
+
+.btn-link {
+  background-color: var(--color-primary);
+  box-shadow: 5px 5px 5px var(--color-primary);
+}
+
+.btn-link:hover {
+  background-color: var(--color-highlight);
+}
+
+ li {
+  color: var(--color-highlight);
 }
