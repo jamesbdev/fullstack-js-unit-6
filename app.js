@@ -22,8 +22,16 @@ app.get("/about", (req, res) => {
 app.get('/project/:id', (req, res) => {
     //store project id
     const projectId = req.params.id;
-    //render project view and pass the individual project data
-    res.render('project', { project: data.projects[projectId - 1] })
+    if (projectId <= data.projects.length) {
+      //render project view and pass the individual project data
+      res.render('project', { project: data.projects[projectId - 1] })
+    } else {
+      const err = new Error();
+      err.status = 404;
+      err.message = "there is no project with this ID, please check the URL"
+      res.render('page-not-found', { error: err });
+    }
+
 })
 
 //handle 404 request
