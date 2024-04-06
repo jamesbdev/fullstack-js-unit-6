@@ -28,8 +28,9 @@ app.get('/project/:id', (req, res) => {
     } else {
       const err = new Error();
       err.status = 404;
-      err.message = "there is no project with this ID, please check the URL"
+      err.message = "there is no project with this ID, please check the URL."
       res.render('page-not-found', { error: err });
+      console.log(err.status, err.message);
     }
 
 })
@@ -38,10 +39,11 @@ app.get('/project/:id', (req, res) => {
 app.use((req, res, next) => {
     const err = new Error();
     err.status = 404;
-    err.message = "Sorry this page doesn't exist.";
+    err.message = "Sorry this page doesn't exist. Please check the URL.";
     res.status(404);
-    console.log(err.status, err.message);
     res.render('page-not-found', { error: err });
+    console.log(err.status, err.message);
+    next();
   
 });
 
